@@ -1,3 +1,73 @@
 <html>
-	test
+  <head>
+    <title>Steve Murphy</title>
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        display: table;
+        height: 100%;
+		background-color: rgb(40,44,52);
+		color: white;
+		font-family: Inconsolata, Courier, monospace;
+		margin: 0 auto;
+      }
+	  .img-circle {
+		border-radius: 50%;
+		height: 200px;
+	  }
+	  .charString
+	  {
+		font-family: inherit;
+		color: rgb(19,176,19);
+	  }
+	  .varType {
+		font-family: inherit;
+		color: rgb(168,120,210);
+	  }
+	  .varName {
+		font-family: inherit;
+		color: rgb(224,98,82);
+	  }
+	  table {
+			vertical-align: middle;
+			display: table-cell;
+	  }
+	  td {
+		padding-left: 50px;
+	  }
+      p {
+		display: inline;
+      }
+	  p.varType {
+		text-indent: 50px;
+	  }
+	  a {
+		color: rgb(19,176,19);
+	  }
+    </style>
+  </head>
+  
+  <body>
+	<table>
+		<tr>
+			<td><img class="img-circle" src="profile.jpg">	</td>
+			<td><p class="varType">struct</p> <p class="varName">AboutMe</p></br> 
+				{</br>
+
+				<p class="varType" style="padding-left:40px;">char</p> name[12] = <p class="charString">"Steve Murphy"</p>;</br>
+				
+				<p class="varType" style="padding-left:40px;">char</p> location[9] = <p class="charString">"Denver, CO"</p>;</br>
+				
+				<p class="varType" style="padding-left:40px;">char</p> work[31] = <p class="charString">"Firmware Engineer - <a href="http://us.allegion.com/en/home.html" target="_blank">Allegion US</a>"</p>;</br>
+				
+				<p class="varType" style="padding-left:40px;">char</p> education[71] = <p class="charString">"(B.S.) Electrical & Comptuer Engineering Technology - Purdue University"</p>;</br>
+				
+				<p class="varType" style="padding-left:40px;">char</p> contact[23] = <p class="charString">"stephendpmurphy@msn.com"</p>;</br>
+				
+				}</br>
+			</td>
+		</tr>
+	</table>
+
+  </body>
 </html>
