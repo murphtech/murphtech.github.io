@@ -2,72 +2,22 @@
   <head>
     <title>Steve Murphy</title>
     <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-    <style>
-      body {
-        display: table;
-        height: 100%;
-		background-color: rgb(40,44,52);
-		color: white;
-		font-family: Inconsolata, Courier, monospace;
-		margin: 0 auto;
-      }
-	  .img-circle {
-		border-radius: 50%;
-		height: 200px;
-	  }
-	  .charString
-	  {
-		font-family: inherit;
-		color: rgb(19,176,19);
-	  }
-	  .varType {
-		font-family: inherit;
-		color: rgb(168,120,210);
-	  }
-	  .varName {
-		font-family: inherit;
-		color: rgb(224,98,82);
-	  }
-	  .integer {
-		color: rgb(209,154,102);
-	  }
-	  table {
-			vertical-align: middle;
-			display: table-cell;
-	  }
-	  td {
-		padding-left: 50px;
-	  }
-      p {
-		display: inline;
-      }
-	  p.varType {
-		text-indent: 50px;
-	  }
-	  a {
-		color: rgb(19,176,19);
-	  }
-    </style>
+	<link href='style.css' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/x-icon" href="GitHub_64px.ico">
   </head>
   
   <body>
 	<table>
 		<tr>
 			<td><img class="img-circle" src="profile.jpg">	</td>
-			<td><p class="varType">struct</p> <p class="varName">AboutMe</p> 
+			<td class="profile"><p class="varType">struct</p> <p class="varName">AboutMe</p> 
 				{</br>
-
-				<p class="varType" style="padding-left:40px;">char</p> name[<p class="integer">12</p>] = <p class="charString">"Steve Murphy"</p>;</br>
-				
-				<p class="varType" style="padding-left:40px;">char</p> location[<p class="integer">9</p>] = <p class="charString">"Denver, CO"</p>;</br>
-				
-				<p class="varType" style="padding-left:40px;">char</p> work[<p class="integer">31</p>] = <p class="charString">"Firmware Engineer - <a href="http://us.allegion.com/en/home.html" target="_blank">Allegion US</a>"</p>;</br>
-				
-				<p class="varType" style="padding-left:40px;">char</p> education[<p class="integer">71</p>] = <p class="charString">"(B.S.) Electrical & Computer Engineering Technology - Purdue University"</p>;</br>
-				
-				<p class="varType" style="padding-left:40px;">char</p> contact[<p class="integer">23</p>] = <p class="charString">"stephendpmurphy@msn.com"</p>;</br>
-				
-				}</br>
+				<div><p class="varType" style="padding-left:40px;">char</p> name[<p class="integer">12</p>] = <p class="charString">"Steve Murphy"</p>;</br></div>
+				<div><p class="varType" style="padding-left:40px;">char</p> location[<p class="integer">9</p>] = <p class="charString">"Denver, CO"</p>;</br></div>
+				<div><p class="varType" style="padding-left:40px;">char</p> work[<p class="integer">31</p>] = <p class="charString">"Firmware Engineer - <a href="http://us.allegion.com/en/home.html" target="_blank">Allegion US</a>"</p>;</br></div>
+				<div><p class="varType" style="padding-left:40px;">char</p> education[<p class="integer">71</p>] = <p class="charString">"(B.S.) Electrical & Computer Engineering Technology - Purdue University"</p>;</br></div>
+				<div><p class="varType" style="padding-left:40px;">char</p> contact[<p class="integer">23</p>] = <p class="charString">"stephendpmurphy@msn.com"</p>;</br></div>
+				};</br>
 			</td>
 		</tr>
 	</table>

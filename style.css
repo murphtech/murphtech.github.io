@@ -1,0 +1,52 @@
+body {
+	display: table;
+	height: 100%;
+	background-color: rgb(40,44,52);
+	color: white;
+	font-family: Inconsolata, Courier, monospace;
+	margin: 0 auto;
+}
+.img-circle {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50%;
+	height: 200px;
+}
+.charString
+{
+	font-family: inherit;
+	color: rgb(19,176,19);
+}
+.varType {
+	font-family: inherit;
+	color: rgb(168,120,210);
+}
+.varName {
+	font-family: inherit;
+	color: rgb(224,98,82);
+}
+.integer {
+	color: rgb(209,154,102);
+}
+table {
+	vertical-align: middle;
+	display: table-cell;
+	cursor: pointer;
+}
+td.profile {
+	padding-left: 50px;
+	width: 850px;
+}
+p {
+	display: inline;
+}
+p.varType {
+	text-indent: 25px;
+}
+a {
+	color: rgb(19,176,19);
+}
+div:hover {
+	text-indent: 25px;
+}
